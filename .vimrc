@@ -25,3 +25,5 @@ set background=dark
 set tags=$HOME/jdk_tags,$HOME/OS_tags
 set cpt=k,.,w,b,u,t,i
 call pathogen#infect()
+autocmd vimenter * NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | end
