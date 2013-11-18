@@ -3,7 +3,7 @@ set showcmd
 set number
 set bg=dark
 syntax on
-set textwidth=100
+set textwidth=80
 set tabstop=4
 set shiftwidth=4
 set expandtab
